@@ -1,0 +1,75 @@
+@import "../../assecs/styles/vars";
+
+.banner {
+    position: relative;
+    background-color: black;
+    height: 84vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .banner video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .banner .container {
+    position: relative;
+    z-index: 2;
+    .inner{
+      margin: 0 auto;
+      width: 75rem;
+      max-width: calc(100% - 6rem);
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        line-height: 1.2;
+        font-weight: 300;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 22px;
+        margin: 0 0 2rem 0;
+        color: $grey;
+        .templated {
+          text-decoration: none;
+          color: $grey;
+        }
+        :hover {
+          color: $color;
+          transition-duration: 0.5s;
+        }
+      }
+    }
+  }
+  
+  .banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    .banner {
+      background: url('../../assecs/images/banner/banner.jpg') black no-repeat center center scroll;
+    }
+    .banner video {
+      display: none;
+    }
+  }

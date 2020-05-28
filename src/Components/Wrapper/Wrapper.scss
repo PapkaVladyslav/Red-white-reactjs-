@@ -1,0 +1,157 @@
+@import "../../assecs/styles/vars";
+
+.wrapper {
+    padding: 8rem 0 6rem 0;
+    position: relative;
+    z-index: 1;
+    .container{
+        width: 1100px;
+        padding: 0;
+        .inner {
+            margin: 0 auto;
+            width: 75rem;
+            max-width: calc(100% - 6rem);
+            .special {
+                text-align: center;
+                margin-bottom: 4rem;
+                h2 {
+                    color: $content_color;
+                    font-size: 2.25rem;
+                    line-height: 1.3;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    margin: 0 0 1.5rem 0;
+                }
+                p {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin: 0 0 2rem 0;
+                    font-weight: 200;
+                }
+            }
+            .testimonials {
+                padding: 1.5rem;
+                .one  {
+                    width: 359.33px;
+                    height: 316.5px;
+                    padding: 0px 22px 0px 0px;
+                    .content {
+                        blockquote {
+                            border-left: solid 0.5rem;
+                            font-style: italic;
+                            margin: 0 0 2rem 0;
+                            padding: 1rem 0 1rem 2rem;
+                            p {
+                            }
+                        }
+                        .author {
+                            .img {
+                                width: 49.86px;
+                                height: 49.86px;
+                                border-radius: 50%;
+                                margin-right: 2rem;
+                                img {
+                                    width: 49.86px;
+                                    height: 49.86px;
+                                    border-radius: 50%;
+                                }
+                            }
+                            .text {
+                                text-align: center;
+                                p {
+                                    font-size: 11px;
+                                    strong {
+                                        color: $red;
+                                        font-weight: 600;
+                                    }
+                                    span {
+                                        color: $special;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .two {
+                    width: 359.33px;
+                    height: 316.5px;
+                    padding: 0px 22px;
+                    .content {
+                        blockquote {
+                            border-left: solid 0.5rem;
+                            font-style: italic;
+                            margin: 0 0 2rem 0;
+                            padding: 1rem 0 1rem 2rem;
+                        }
+                        .author {
+                            .img {
+                                width: 49.86px;
+                                height: 49.86px;
+                                border-radius: 50%;
+                                margin-right: 2rem;
+                                img {
+                                    width: 49.86px;
+                                    height: 49.86px;
+                                    border-radius: 50%;
+                                }
+                            }
+                            .text {
+                                text-align: center;
+                                p {
+                                    font-size: 11px;
+                                    strong {
+                                        color: $red;
+                                        font-weight: 600;
+                                    }
+                                    span {
+                                        color: $special;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .three {
+                    width: 359.33px;
+                    height: 316.5px;
+                    padding: 0px 0px 0px 22px;
+                    .content {
+                        blockquote {
+                            border-left-color: rgba(0, 0, 0, 0.25);
+                            border-left: solid 0.5rem;
+                            font-style: italic;
+                            margin: 0 0 2rem 0;
+                            padding: 1rem 0 1rem 2rem;
+                        }
+                        .author {
+                            .img {
+                                width: 49.86px;
+                                height: 49.86px;
+                                border-radius: 50%;
+                                margin-right: 2rem;
+                                img {
+                                    width: 49.86px;
+                                    height: 49.86px;
+                                    border-radius: 50%;
+                                }
+                            }
+                            .text {
+                                text-align: center;
+                                p {
+                                    font-size: 11px;
+                                    strong {
+                                        color: $red;
+                                        font-weight: 600;
+                                    }
+                                    span {
+                                        color: $special;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
