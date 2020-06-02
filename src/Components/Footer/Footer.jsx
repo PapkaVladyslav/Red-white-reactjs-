@@ -26,7 +26,7 @@ export class Footer extends React.Component {
                         <div className="magna">
                             <h4>Magna sed ipsum</h4>
                             <ul>
-                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#"><i className="icon fa-twitter"></i>Twitter</a></li>
                                 <li><a href="#">Facebook</a></li>
                                 <li><a href="#">Instagram</a></li>
                                 <li><a href="#">Github</a></li>

@@ -32,10 +32,9 @@
             margin-bottom: 22px;
             .cards-cont,
             .cards-bars {
-                width: 359.33px;
-                height: 404.33px;
                 padding: 0px 22px 22px 0px;
                 .inside {
+                    background-color: $color;
                     padding: 44px;
                     .up {
                         height: 147px;
@@ -59,9 +58,9 @@
             .cards-papper,
             .cards-plane {
                 padding: 0px 22px 22px;
-                width: 359.33px;
-                height: 404.33px;
+
                 .inside {
+                    background-color: $color;
                     width: 337.33px;
                     padding: 44px;
                     .up {
@@ -86,9 +85,9 @@
             .cards-disk,
             .cards-code {
                 padding: 0px 0px 22px 22px;
-                width: 359.33px;
-                height: 404.33px;
+
                 .inside {
+                    background-color: $color;
                     padding: 44px;
                     .up {
                         height: 147px;

@@ -12,19 +12,13 @@ export class Header extends React.Component {
                 <a className="logo" herf="#">Industrios</a>
               </div>
               <div className ="wright-side d-flex align-items-center">
-                <nav className="menu">
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" >
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <a href="#Menu">Menu</a>
-                  <div className="collapse">
-                    <div className="bg" id="navbarToggleExternalContent">
-                      <ul>
-                        <li>Home</li>
-                        <li>Elements</li>
-                        <li>Generic</li>
-                      </ul>
-                    </div>
+                <nav id="menu">
+                  <input type="checkbox" id="check"/>
+                  <label className="check"><i className="fas fa-bars" id="btn"></i><i className="fas fa-times" id="cancel"></i></label>
+                  <div className="sidebar">
+                    <ul>
+                      
+                    </ul>
                   </div>
                 </nav>
               </div>
